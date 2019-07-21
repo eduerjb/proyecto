@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Formulario</title>
+<?php
+include 'menu.php'
+
+  ?>
+
+
+</head>
+<body >
+
+
+  <div class="container">
+    <div class="form__top">
+      <h2>Formulario <span>Registro Guia</span></h2>
+    </div>
+    <form class="form__reg" action="">
+      <input class="input" type="text" placeholder="&#128100;  Nombre" required autofocus>
+      <input class="input" type="text" placeholder="&#128100;  Apellido" required autofocus>
+      <input class="input" type="text" placeholder="&#128100;  Usuario" required autofocus>
+            <input class="input" type="email" placeholder="&#9993;  Email" required>
+            <input class="input" type="text" placeholder="&#128222;  Telefono" required>
+            <input class="input" type="text" placeholder="    &#128443;  Documento" required>
+            <input class="input" type="date" placeholder="   Fecha de nacimiento" required>
+            <label>Municipio</label>
+                    <select class="input" name="ciudad">
+                        <option>Amagá</option>
+                        <option>Andes</option>
+                        <optio>Angelópolis</option>
+                         <option>Barbosa</option>
+                        <option>Bello</option>
+                        <option>Betania</option>
+                        <option>Betulia</option>
+                         <option>Caldas</option>
+                          <option>Caramanta</option>
+                        <option>Ciudad Bolívar</option>
+                        <option>Concordia</option>
+                        <option>Copacabana</option>
+                         <option>Envigado</option>
+                        <optio>Fredonia</option>
+                         <option>Girardota</option>
+                        <option>Hispania</option>
+                         <option>Itagüí</option>
+                        <option>Jardín</option>
+                        <option>Jericó</option>
+                         <option>La estrella</option>
+                        <option>La Pintada</option>
+                        <option>Medellin</option>
+                        <option>Montebello</option>
+                        <optio>Pueblorrico</option>
+                         <option>Sabaneta</option>
+                        <option>Salgar</option>
+                        <option>Santa Bárbara</option>
+                        <option>Támesis</option>
+                        <option>Tarso</option>
+                        <option>Titiribí</option>
+                        <option>Urrao</option>
+                        <option>Valparaíso</option>
+                        <option>Venecia</option>
+                    </select>
+            <input class="input" type="password" placeholder="&#x1F512;  Contraseña" required>
+            <input class="input" type="password" placeholder="&#x1F512;  Confirmar contraseña" required>
+
+
+            <div class="btn__form">
+              <div button class="btn btn-primary">registrar</div>
+              <input class="btn__reset" type="reset" value="LIMPIAR">
+            </div>
+    </form>
+  </div>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
